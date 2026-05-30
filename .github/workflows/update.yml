@@ -2,8 +2,8 @@ name: Atualizar Dados IBOV
 
 on:
   schedule:
-    # Seg a sex às 20:00 UTC (17:00 BRT) — após fechamento B3
-    - cron: "0 20 * * 1-5"
+    # Seg a sex às 22:00 UTC (19:00 BRT) — após fechamento B3
+    - cron: "0 22 * * 1-5"
   workflow_dispatch:
 
 permissions:
